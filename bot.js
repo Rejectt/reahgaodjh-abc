@@ -1,12 +1,12 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const prefix = '/'
+const prefix = 'spear'
  
  
  
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`Under Programing `,"https://www.twitch.tv/dggamingbot")
+client.user.setGame(`Spear Bc `,"https://www.twitch.tv/dggamingbot")
   console.log(`[Start] ${new Date()}`);
   console.log(`Logged in as * [ " ${client.user.username} " ]`);
   console.log('Informations :')
